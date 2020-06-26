@@ -1,0 +1,96 @@
+Written in 2020 by Toby Rogers, inspired by Never Mind The Bollocks 
+   Here's The Sex Pistols and 1970s punk fanzines.
+
+   To the extent possible under law, the author(s) have dedicated all 
+   copyright and related and neighboring rights to this software to the 
+   public domain worldwide. This software is distributed without any 
+   warranty.
+
+   You should have received a copy of the CC0 Public Domain Dedication 
+   along with this software. If not, see 
+   http://creativecommons.org/publicdomain/zero/1.0
+*/
+@import url('https://fonts.googleapis.com/css?family=Special+Elite');
+
+body, article {
+    font-family: Special Elite, sans-serif !important;
+}
+body {
+    background-color: #FEDB48;
+}
+
+h1 {
+    color: #FD81CD;
+}
+
+h2 {
+    color: #000000;
+}
+ 
+a {
+    color: #FD81CD;
+}
+ 
+header description {
+    font-style: normal;
+}
+ 
+article p {
+    line-height: 1.9em;
+}
+ 
+article p a {
+    color: #222;
+    text-decoration: none;
+    border-bottom: 2px solid #FD81CD;
+}
+article p a:hover {
+    background-color: #FD81CD;
+    color: white;
+    text-decoration: none;
+}
+ 
+#post #blog-title a {
+    padding: 4px 8px;
+}
+ 
+#collection .read-more {
+    text-decoration: underline;
+}
+ 
+img {
+    display: block;
+    margin: 0 auto;
+}
+ 
+header nav .views {
+    display: none;
+}
+ 
+#collection article p, #subpage article p {
+    line-height: 1.9em;
+}
+ 
+br {
+    line-height: 3em;
+}
+ 
+.post-title {
+    font-weight: bold;
+}
+.post-title a.u-url:link, .post-title a.u-url:visited {
+    color: #000000;
+}
+ 
+#blog-title a {
+    color: #FD81CD;
+}
+#blog-title a:hover {
+    color: #FD81CD;
+}
+
+article p a, article ul a, article ol a {
+     color: #000;
+     text-decoration: none;
+     border-bottom: 1px solid #FD81CD;
+}
